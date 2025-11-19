@@ -55,11 +55,47 @@
 
 ---
 
+### Chapter 14 — Data Fetching on the Client and Performance
+
+[📖 Read Notes](./ch14/notes.md)
+
+**Key Learnings:**
+
+- Types of data fetching (initial vs on-demand)
+- When to use external libraries vs native fetch
+- What makes an app "performant"
+- Browser limitations (6 parallel requests)
+- Request waterfalls and how they appear
+- Four solutions: Promise.all, parallel promises, data providers, pre-fetching
+- Suspense reality check
+
+---
+
+### Chapter 15 — Data Fetching and Race Conditions
+
+[📖 Read Notes](./ch15/notes.md)
+
+**Key Learnings:**
+
+- Understanding Promises and async operations
+- How race conditions appear in React
+- Four complete solutions:
+  - Force re-mounting (not recommended)
+  - Drop incorrect results (using Refs)
+  - Drop all previous results (cleanup functions)
+  - Cancel previous requests (AbortController)
+- Async/await and race conditions
+- Testing and debugging strategies
+
+---
+
 ## 📊 Study Progress
 
-| Chapter                                | Status         |
-| -------------------------------------- | -------------- |
-| Chapter 1: Introduction to Re-renders  | ✅ Complete    |
-| Chapter 2: Elements, Children as Props | ✅ Complete    |
-| Chapter 3: Configuration Concerns      | ✅ Complete    |
-| Chapter 4: Render Props                | 🔄 In Progress |
+| Chapter                                       | Status         |
+| --------------------------------------------- | -------------- |
+| Chapter 1: Introduction to Re-renders         | ✅ Complete    |
+| Chapter 2: Elements, Children as Props        | ✅ Complete    |
+| Chapter 3: Configuration Concerns             | ✅ Complete    |
+| Chapter 4: Render Props                       | 🔄 In Progress |
+| Chapter 14: Data Fetching and Performance     | ✅ Complete    |
+| Chapter 15: Data Fetching and Race Conditions | ✅ Complete    |
