@@ -1,4 +1,4 @@
-# Next.js Optimization Guide - Complete Guide
+# Next.js 16 Optimization Guide - Complete Guide
 
 ## Table of Contents
 
@@ -17,6 +17,9 @@
 ---
 
 ## Introduction
+
+> [!NOTE]
+> This guide covers optimization techniques for Next.js 16, including both the modern App Router and legacy Pages Router approaches.
 
 Next.js provides built-in optimizations to improve performance, SEO, and user experience. This guide covers all optimization techniques, tools, and best practices.
 
@@ -1387,6 +1390,15 @@ export function reportWebVitals(metric) {
 | Code Splitting | `dynamic()`       | Lazy load components          |
 | Caching        | `revalidate`      | ISR and caching control       |
 | Performance    | `reportWebVitals` | Track Core Web Vitals         |
+
+---
+
+## Related Documentation
+
+- [Next.js 16 App Router Routing Guide](file:///c:/Users/mmt20/Desktop/beetleware-frontend-intern/nexjs/app-router-routing-guide.md) - Comprehensive routing patterns
+- [Next.js 16 Folder Structure](file:///c:/Users/mmt20/Desktop/beetleware-frontend-intern/nexjs/next16-folder-structure.md) - Project organization
+- [Rendering & Data Fetching](file:///c:/Users/mmt20/Desktop/beetleware-frontend-intern/nexjs/rendering-and-data-fetching.md) - SSR, SSG, ISR strategies
+- [Next.js Basics](file:///c:/Users/mmt20/Desktop/beetleware-frontend-intern/nexjs/nextjs-basics.md) - Getting started guide
 
 ---
 

@@ -1,4 +1,4 @@
-# Rendering & Data Fetching in Next.js
+# Rendering & Data Fetching in Next.js 16
 
 ## Table of Contents
 
@@ -18,6 +18,9 @@
 ---
 
 ## 1. Introduction to Rendering
+
+> [!NOTE]
+> This guide covers rendering and data fetching strategies in Next.js 16, including both the modern App Router and legacy Pages Router approaches.
 
 Next.js provides **multiple rendering strategies** to optimize performance and user experience. Each method has specific use cases.
 

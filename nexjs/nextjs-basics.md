@@ -1,4 +1,4 @@
-# Next.js 15 - Complete Introduction
+# Next.js 16 - Complete Introduction
 
 ## What is Next.js?
 
@@ -134,7 +134,7 @@ my-app/
 └── tsconfig.json          # TypeScript config
 ```
 
-## What's New in Next.js 15?
+## What's New in Next.js 16?
 
 ### Major Features
 
@@ -142,7 +142,7 @@ my-app/
 2. **Turbopack Stable**: Faster bundler for development (up to 76.7% faster)
 3. **Async Request APIs**: Breaking change - `params`, `searchParams`, and other APIs are now async
 4. **Enhanced Caching**: More granular control over caching strategies
-5. **Partial Prerendering (Preview)**: Combines static and dynamic rendering in a single route
+5. **Partial Prerendering (Stable)**: Combines static and dynamic rendering in a single route
 6. **Form Actions**: Improved server actions with better TypeScript support
 
 ### Breaking Changes
@@ -542,4 +542,14 @@ The App Router takes precedence for matching routes.
 
 ---
 
-**Pro Tip**: Start with the App Router (not the older Pages Router) for new projects to leverage the latest features and best practices.
+## Related Documentation
+
+- [Next.js 16 App Router Routing Guide](file:///c:/Users/mmt20/Desktop/beetleware-frontend-intern/nexjs/app-router-routing-guide.md) - Comprehensive routing guide
+- [Next.js 16 Folder Structure](file:///c:/Users/mmt20/Desktop/beetleware-frontend-intern/nexjs/next16-folder-structure.md) - Project organization patterns
+- [Rendering & Data Fetching](file:///c:/Users/mmt20/Desktop/beetleware-frontend-intern/nexjs/rendering-and-data-fetching.md) - SSR, SSG, ISR strategies
+- [Optimization Guide](file:///c:/Users/mmt20/Desktop/beetleware-frontend-intern/nexjs/optimization-guide.md) - Performance optimization
+
+---
+
+**Pro Tip**: Start with the App Router (not the older Pages Router) for new projects to leverage the latest features and best practices in Next.js 16.
+
